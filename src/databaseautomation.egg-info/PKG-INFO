@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: databaseautomation
+Version: 0.0.4
+Summary: A python package for connecting with database.
+Home-page: https://github.com/7H0M45-4N70NY/mongopackage
+Author: 7H0M45-4N70NY
+Author-email: thomasantony14@gmail.com
+Project-URL: Bug Tracker, https://github.com/7H0M45-4N70NY/mongopackage/issues
