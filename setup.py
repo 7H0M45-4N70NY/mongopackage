@@ -24,7 +24,7 @@ with open('README.MD', 'r', encoding='utf-8') as f:
 
 __version__ = "0.0.4"
 REPO_NAME = "mongopackage"
-PKG_NAME= "databaseautomation"
+PKG_NAME= "thomasdb"
 AUTHOR_USER_NAME = "7H0M45-4N70NY"
 AUTHOR_EMAIL = "thomasantony14@gmail.com"
 
@@ -41,6 +41,4 @@ setup(
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
-    packages=find_packages(where="src"),
-    install_requires=get_requiremet("requirements_dev.txt")
-    )
+    packages=find_packages(where="src"))
