@@ -5,7 +5,7 @@ with open('README.MD', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
-__version__ = "0.0.4"
+__version__ = "0.0.5"
 REPO_NAME = "mongopackage"
 PKG_NAME= "thomasdb"
 AUTHOR_USER_NAME = "7H0M45-4N70NY"
