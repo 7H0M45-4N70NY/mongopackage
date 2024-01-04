@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 from typing import List
+from test import get_requiremet
 
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
@@ -25,4 +26,5 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
+    install_requires=get_requiremet("requirements_dev.txt")
     )
