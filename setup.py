@@ -7,7 +7,7 @@ from typing import List
 
 __version__ = "0.0.5"
 REPO_NAME = "mongopackage"
-PKG_NAME= "all_db_connector"
+PKG_NAME= "db_connector"
 AUTHOR_USER_NAME = "7H0M45-4N70NY"
 AUTHOR_EMAIL = "thomasantony14@gmail.com"
 
